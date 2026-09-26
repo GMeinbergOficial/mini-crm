@@ -1,20 +1,21 @@
-# Starter — Mini CRM
+# Mini CRM
 
-Este é o **ambiente inicial**, não a solução final.
+**Deploy:** https://mini-crm-bice-tau.vercel.app
 
-## O que já existe
+Mini CRM para organizar contatos e oportunidades de negócio.
+
+## Funcionalidades
+- CRUD de contatos (nome, empresa, email, telefone)
+- CRUD de oportunidades vinculadas a contatos
+- Etapas: Prospecção, Qualificação, Proposta, Negociação, Fechado (Ganho/Perdido)
+- Prioridades: Baixa, Média, Alta
+- Follow-up e próxima ação
+- Filtros por etapa e prioridade
+- Persistência em localStorage
+
+## Stack
 - React + TypeScript + Vite
-- estrutura mínima de `src/`
-- tela neutra de confirmação do ambiente
-- scripts `dev`, `build` e `preview`
-
-## O que NÃO existe
-- CRUD funcional
-- regras de negócio do PRD
-- persistência
-- filtros
-- solução visual final
-- Golden Master
+- Deploy: Vercel
 
 ## Antes de construir
 1. Leia `../README.md`.
